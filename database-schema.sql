@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS documents (
 
 -- Create an admin user (password: admin123)
 INSERT INTO users (name, email, password, role)
-VALUES ('Admin User', 'admin@example.com', '$2b$10$JqHRrKpnVAQRKxs1Yk6Ose.XQCiGGmKRoLz3jc3F9AhQQ7OAEo7Uy', 'admin');
+VALUES ('Test User', 'testuser@example.com', '$2b$10$JqHRrKpnVAQRKxs1Yk6Ose.XQCiGGmKRoLz3jc3F9AhQQ7OAEo7Uy', 'customer');
 
 -- Create some customer users (password: password123)
 INSERT INTO users (name, email, password, role)

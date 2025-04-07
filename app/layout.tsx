@@ -8,9 +8,9 @@ import { AuthProvider } from "@/components/auth-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard",
-  description: "Admin dashboard with user, payment, and document management",
-    generator: 'v0.dev'
+  title: "Pinehurst Road",
+  description: "Pinehurst Admin dashboard with user, payment, and document management",
+    generator: 'bugman-007'
 }
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-muted/40">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl">Welcome to Admin Dashboard</CardTitle>
+          <CardTitle className="text-2xl">Welcome to Pinehurst Road</CardTitle>
           <CardDescription>Manage users, payments, and documents with ease</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
